@@ -1,5 +1,3 @@
-import React from 'react'
-
 // Header
     // -Logo
     // -Nav items
@@ -10,12 +8,16 @@ import React from 'react'
     //Logo  
     // Address
     // other menus
+import Body from "./components/Body"
+import Header from "./components/Header"
+
 
 const App = () => {
     return (
-      <div>
-    
-    </div>
+        <>
+            <Header/>
+            <Body/>
+        </>
   )
 }
 
