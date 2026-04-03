@@ -1,7 +1,9 @@
+import { LOGO } from "../utils/constants"
+
 const Header = () => {
   return (
     <div className="header-section">
-           <img className="header-logo" src="https://marketplace.canva.com/EAGXsRURT9o/1/0/1600w/canva-yellow-and-brown-kitchen-food-logo-JrzZUwc_CLQ.jpg" alt="" />     
+           <img className="header-logo" src={LOGO} alt="" />     
            <div className="nav-row">
             <ul>
                 <li>Home</li>
